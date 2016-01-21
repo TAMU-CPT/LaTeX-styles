@@ -1,6 +1,7 @@
 COMPILER = xelatex
 PROJ = main
 MAIN = $(PROJ).tex
+TEXPATH = TEXINPUTS="../..:" BSTINPUTS="../../:"
 
 # Default target
 all: $(PROJ).pdf
