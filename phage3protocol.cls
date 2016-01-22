@@ -10,7 +10,7 @@
 \def\filedate{2015/01/19}
 
 \ProvidesClass{phage3protocol}[\filedate~Protocol style ``Phage'' by Eric Rasche]
-\LoadClass{article}
+\LoadClass{memoir}
 \NeedsTeXFormat{LaTeX2e}
 
 \RequirePackage{amsmath,amssymb}
@@ -28,6 +28,33 @@
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 \RequirePackage{biocon}
 \RequirePackage{siunitx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Headings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makepagestyle{dev}
+\makeevenhead{dev}{\thepage\quad}{}{}
+\makeoddhead{dev}{}{}{\quad\thepage}
+\makeevenfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\VCRevisionMod}}
+\makeoddfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\VCRevisionMod}}
+
+\makepagestyle{plain}
+\makerunningwidth{plain}{\headwidth}
+\makeevenfoot{plain}{\thepage}{}{}
+\makeoddfoot{plain}{}{}{\thepage}
+
+\makepagestyle{empty}
+\makeevenhead{empty}{}{}{}
+\makeoddhead{empty}{}{}{}
+\makeevenfoot{empty}{}{}{}
+\makeoddfoot{empty}{}{}{}
+
+\setheadfoot{\onelineskip}{4\onelineskip}
+\makefootrule{dev}{\textwidth}{\normalrulethickness}{3pt}
+
+%\setsecheadstyle{\LARGE\scshape\raggedright} %\renewcommand\thesection{\roman{section}}
+\renewcommand{\chaptername}{Laboratory}
 
 %\input{extra/bacteria.tex}
 %\input{extra/shortcuts.tex}
