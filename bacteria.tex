@@ -1,0 +1,34 @@
+% Bact
+\newbact{myx}{genus=Myxococcus}
+\newbact{ecoli}{genus=Escherichia,epithet=coli}
+\newbact{bsub}{genus=Bacillus,epithet=subtilis}
+\newbact{saur}{genus=Staphylococcus,epithet=aureus}
+\newbact{shyicus}{genus=Staphylococcus,epithet=hyicus}
+\newbact{ypest}{genus=Yersinia,epithet=pestis}
+\newbact{sdysen}{genus=Shigella,epithet=dysenteriae}
+\newbact{sflex}{genus=Shigella,epithet=flexneri}
+\newbact{ccre}{genus=Caulobacter,epithet=crescentus}
+\newbact{msmeg}{genus=Mycobacterium,epithet=smegmatis}
+\newbact{pcaro}{genus=Pectobacterium,epithet=carotovorum}
+\newbact{cfre}{genus=Citrobacter,epithet=freundii}
+
+% Genus
+\newbact{shigella}{genus=Shigella}
+\newbact{salmonella}{genus=Salmonella}
+\newbact{strep}{genus=Streptococcus}
+
+% Bact + Strain
+\newtaxon{strain}
+\newtaxastyle{WithStrain}{\taxit{\taxonfirst{!genus!.}\taxon{ !epithet!}}\taxon{ !strain!}}
+\newbact{ecolik12}{genus=Escherichia,epithet=coli,strain=K-12}
+\newbact{ecolib}{genus=Escherichia,epithet=coli,strain=B}
+\newbact{ecolik}{genus=Escherichia,epithet=coli,strain=K}
+\newbact{ecolic}{genus=Escherichia,epithet=coli,strain=C}
+\newbact{ecolio157h7}{genus=Escherichia,epithet=coli,strain=O157:H7}
+\newbact{ecolibi16142}{genus=Escherichia,epithet=coli,strain=Bi161/42}
+
+% Genes
+\usepackage{xspace}
+\newcommand{\gene}[1]{\textit{#1}\xspace}
+
+\newbact{trex}{genus=Tyrannosaurus,epithet=rex}
