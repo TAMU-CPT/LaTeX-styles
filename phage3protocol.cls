@@ -49,14 +49,15 @@
 \makeoddhead{empty}{}{}{}
 \makeevenfoot{empty}{}{}{}
 \makeoddfoot{empty}{}{}{}
-
-\setheadfoot{\onelineskip}{4\onelineskip}
 \makefootrule{dev}{\textwidth}{\normalrulethickness}{3pt}
 
-%\setsecheadstyle{\LARGE\scshape\raggedright} %\renewcommand\thesection{\roman{section}}
-\renewcommand{\chaptername}{Laboratory}
-
-%\input{extra/bacteria.tex}
+\setheadfoot{\onelineskip}{4\onelineskip}
+\settrimmedsize{11in}{8.5in}{}
+%\settypeblocksize{6in}{3in}{*}
+%\setlrmarginsandblock{*}{2cm}{4}
+%\setmarginnotes{1.5cm}{5cm}{.5cm}
+%\checkandfixthelayout%
+\input{bacteria.tex}
 %\input{extra/shortcuts.tex}
 
 \usepackage[breaklinks]{hyperref}
@@ -64,3 +65,4 @@
 \usepackage[font=small]{caption}
 \usepackage{subcaption}
 \usepackage{cleveref}
+\renewcommand{\chaptername}{Laboratory}
