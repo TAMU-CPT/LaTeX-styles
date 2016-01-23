@@ -36,8 +36,8 @@
 \makepagestyle{dev}
 \makeevenhead{dev}{\thepage\quad}{}{}
 \makeoddhead{dev}{}{}{\quad\thepage}
-\makeevenfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\VCRevisionMod}}
-\makeoddfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\VCRevisionMod}}
+\makeevenfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
+\makeoddfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
 
 \makepagestyle{plain}
 \makerunningwidth{plain}{\headwidth}
