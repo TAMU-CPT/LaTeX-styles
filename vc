@@ -25,3 +25,4 @@ then
   git status |awk -v script=status -f ${VCGITAWK}
 fi
 
+git branch | awk -v script=branch -f ${VCGITAWK}
