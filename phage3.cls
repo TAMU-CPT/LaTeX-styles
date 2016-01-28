@@ -229,7 +229,7 @@
 \makeevenhead{dev}%
     {\thepage\quad|\quad\leftmark}{}{}
 \makeoddhead{dev}{}{}{\quad\thepage}
-\makeevenfoot{dev}{Rev: \texttt{\VCRevisionMod}}{}{}
+\makeevenfoot{dev}{Rev: \texttt{\GITBranch-\VCRevisionMod}}{}{}
 \makeoddfoot{dev}{}{}{\today}
 
 \makepagestyle{release}
