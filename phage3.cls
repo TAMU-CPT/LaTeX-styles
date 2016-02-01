@@ -312,7 +312,7 @@
 
 \usepackage[breaklinks]{hyperref}
 % make figure caption hyperlinks go to top of figure http://stackoverflow.com/q/4023925/
-\usepackage[font=small]{caption}
+\usepackage[font=footnotesize]{caption}
 \usepackage{subcaption}
 \usepackage{cleveref}
 \crefname{EOCQ}{Question}{Questions}
