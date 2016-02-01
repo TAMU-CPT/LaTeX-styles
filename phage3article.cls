@@ -30,7 +30,7 @@
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{wrapfig}
 \RequirePackage{lineno}
-\RequirePackage[acronym,toc]{glossaries}
+\RequirePackage[acronym,toc,nopostdot]{glossaries}
 \RequirePackage{textcomp}
 \RequirePackage[version=3]{mhchem}
 \input{extra/acronyms.tex}
