@@ -1,27 +1,36 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Headings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makepagestyle{dev}
-\makeevenhead{dev}%
-    {\thepage\quad|\quad\leftmark}{}{}
-\makeoddhead{dev}{}{}{\quad\thepage}
-\makeevenfoot{dev}{Rev: \texttt{\VCRevisionMod}}{}{}
-\makeoddfoot{dev}{}{}{\today}
+\input{headings_common}
+\makeevenhead{dev}
+    {\thepage\quad|\quad\leftmark}
+    {}
+    {}
+\makeevenfoot{dev}
+    {Rev: \texttt{\VCRevisionMod}}
+    {}
+    {\today}
+
+\makeoddhead{dev}
+    {}
+    {}
+    {\quad\thepage}
+\makeoddfoot{dev}
+    {Rev: \texttt{\VCRevisionMod}}
+    {}
+    {\today}
 
 \makepagestyle{release}
-\makeevenhead{release}%
-    {\thepage\quad|\quad\leftmark}{}{}
-\makeoddhead{release}{}{}{\quad\thepage}
+\makeevenhead{release}
+    {\thepage\quad|\quad\leftmark}
+    {}
+    {}
+\makeoddhead{release}
+    {}
+    {}
+    {\quad\thepage}
 \makeevenfoot{release}{}{}{}
 \makeoddfoot{release}{}{}{}
 
-\makepagestyle{plain}
-\makerunningwidth{plain}{\headwidth}
-\makeevenfoot{plain}{\thepage}{}{}
-\makeoddfoot{plain}{}{}{\thepage}
-
-\makepagestyle{empty}
-\makeevenhead{empty}{}{}{}
-\makeoddhead{empty}{}{}{}
-\makeevenfoot{empty}{}{}{}
-\makeoddfoot{empty}{}{}{}
+% END
+\makepagestyle{dev}

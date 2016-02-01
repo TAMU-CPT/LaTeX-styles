@@ -1,20 +1,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Headings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makepagestyle{dev}
-\makeevenhead{dev}{\thepage\quad}{}{}
-\makeoddhead{dev}{}{}{\quad\thepage}
-\makeevenfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
-\makeoddfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
+\input{headings_common}
 
-\makepagestyle{plain}
-\makerunningwidth{plain}{\headwidth}
-\makeevenfoot{plain}{\thepage}{}{}
-\makeoddfoot{plain}{}{}{\thepage}
+\makeevenhead{dev}
+	{\thepage\quad}
+	{}
+	{}
+\makeoddhead{dev}
+	{}
+	{}
+	{\quad\thepage}
+\makeevenfoot{dev}
+	{Center for Phage Technology}
+	{}
+	{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
+\makeoddfoot{dev}
+	{Center for Phage Technology}
+	{}
+	{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
 
-\makepagestyle{empty}
-\makeevenhead{empty}{}{}{}
-\makeoddhead{empty}{}{}{}
-\makeevenfoot{empty}{}{}{}
-\makeoddfoot{empty}{}{}{}
+% END
 \makefootrule{dev}{\textwidth}{\normalrulethickness}{3pt}
+\makepagestyle{dev}
