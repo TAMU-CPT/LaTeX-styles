@@ -1,0 +1,86 @@
+\NeedsTeXFormat{LaTeX2e}
+
+\RequirePackage{amsmath,amssymb}
+\RequirePackage{epigraph}
+\RequirePackage{etoolbox}
+\RequirePackage{fontspec}
+\RequirePackage{xltxtra}
+%\fontspec[Path=font/EBGaramond-0.015d/ttf/,
+%]{EBGaramond12}
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\graphicspath{{images/}{images/library/}}
+\RequirePackage{makeidx}
+\RequirePackage{multicol}
+\RequirePackage[super]{nth}
+\RequirePackage{textcomp}
+\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage{wrapfig}
+\RequirePackage{lineno}
+\RequirePackage[acronym,toc,nopostdot,nohypertypes={acronym,notation}]{glossaries}
+\RequirePackage{textcomp}
+\RequirePackage[version=3]{mhchem}
+\input{extra/acronyms.tex}
+\input{extra/gloss.tex}
+\makeglossaries
+
+\RequirePackage{wallpaper}
+\def\figwidth{0.5\textwidth}
+\def\innerfigwidth{.48\textwidth}
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\RequirePackage{biocon}
+\RequirePackage{siunitx}
+\input{extra/bacteria.tex}
+\input{extra/shortcuts.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Our think about boxes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mdframed}% http://ctan.org/pkg/mdframed
+\usepackage{float}
+\usepackage{mdframed}
+\usepackage{soul,calc}
+\usepackage{tikz}
+\usepackage[explicit]{titlesec}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Editor http://tex.stackexchange.com/a/58528
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\newcommand{\editor}[1]{\gdef\@editor{#1}}%
+\newcommand{\@editor}{\@latex@warning@no@line{No \noexpand\editor given}}
+\addtoiargdef{\editor}{%
+  \begingroup\let\footnote\@gobble}{%
+  \begingroup
+    \renewcommand{\thanks}[1]{}
+    \renewcommand{\and}{\unskip, }
+    \renewcommand{\andnext}{\unskip, }
+    \renewcommand{\thanksmark}[1]{}
+    \renewcommand{\thanksgap}[1]{}
+    \protected@xdef\theeditor{#1}
+  \endgroup\endgroup}
+\newcommand{\preeditor}[1]{\def\@bspreeditor{#1}}
+\newcommand{\posteditor}[1]{\def\@bsposteditor{#1}}
+\renewcommand{\maketitlehookc}{%
+  {\@bspreeditor \@editor \@bsposteditor}%
+}
+%\preeditor{\begin{center}
+  %\large \lineskip .5em%
+  %\begin{tabular}[t]{c}}
+%\posteditor{\end{tabular}\par\end{center}}
+\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of Chapter Questions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsthm}
+\newtheorem{EOCQ}{Question}
+
+% appx N kb
+\newcommand{\kbapp}[1]{\ensuremath{\approx#1\text{ kb}}}

@@ -1,0 +1,17 @@
+\newfloat{thinkaboutbox}{thp}{lop}
+\floatname{thinkaboutbox}{Consider}
+\newenvironment{thinkabout}[3][black!05]{%
+    \begin{thinkaboutbox}%
+    \begin{mdframed}[backgroundcolor=#1]\textbf{Consider the following}\ldots%
+}{%
+    \end{mdframed}%
+    \end{thinkaboutbox}%
+}
+\geometry{
+	top=1in,
+	inner=0.75in,
+	outer=0.75in,
+	bottom=1in,
+	headheight=10ex,
+	headsep=4ex,
+}
