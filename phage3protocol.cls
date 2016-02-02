@@ -13,10 +13,11 @@
 \LoadClass{memoir}
 \input{common}
 \input{common_memoir_extra}
-\input{headings_lab}
+\input{headings_common}
 
 \setheadfoot{\onelineskip}{4\onelineskip}
 \settrimmedsize{11in}{8.5in}{}
 \renewcommand{\chaptername}{Laboratory}
 
+\pagestyle{dev}
 \input{common_end}

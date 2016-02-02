@@ -42,5 +42,6 @@
 % Make sections start from 1 rather than 0.1
 \renewcommand{\thesection}{\arabic{section}}
 
+\input{headings_article}
 \input{common_end}
 \input{extra/article-attrib.tex}
