@@ -1,11 +1,22 @@
 \usepackage{fancyhdr}
-\pagestyle{fancy}
+\fancypagestyle{default}{ %
+    \fancyhf{} % remove everything
+    \renewcommand{\headrulewidth}{0pt} % remove lines as well
+    \renewcommand{\footrulewidth}{0pt}
 
-% Even Output % Odd Output
-\lhead[\thepage\quad|\quad\leftmark]{}
-\chead[]{}
-\rhead[]{\quad\thepage}
+    % Even Output % Odd Output
+    \lhead[\thepage\quad|\quad\leftmark]{}
+    \chead[]{}
+    \rhead[]{\quad\thepage}
 
-\lfoot[Rev: \texttt{\VCRevisionMod}]{Rev: \texttt{\VCRevisionMod}}
-\cfoot[]{}
-\rfoot[]{}
+    \lfoot[Rev: \texttt{\VCRevisionMod}]{Rev: \texttt{\VCRevisionMod}}
+    \cfoot[]{}
+    \rfoot[Center for Phage Technology]{Center for Phage Technology}
+}
+\fancypagestyle{empty}{ %
+    \fancyhf{} % remove everything
+    \renewcommand{\headrulewidth}{0pt} % remove lines as well
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+\pagestyle{default}

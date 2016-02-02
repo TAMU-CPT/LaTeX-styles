@@ -25,19 +25,7 @@
 \newcommand{\@editor}{\@latex@warning@no@line{No \noexpand\editor given}}
 \makeatother
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% /maketitle customisation
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makeatletter
-\def\maketitle{%
-\begin{center}%
-\ThisULCornerWallPaper{1}{chapter-header-x50.png}%
-\par{\Huge\@title}%
-\par{by \Large\@author}%
-\par{\small ed. \@editor}%
-\end{center}%
-\par}
-\makeatother
+\input{title_article}
 
 % Make sections start from 1 rather than 0.1
 \renewcommand{\thesection}{\arabic{section}}
