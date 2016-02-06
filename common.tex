@@ -2,7 +2,6 @@
 
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{epigraph}
-\setlength{\parindent}{.4\textwidth}
 \RequirePackage{etoolbox}
 \RequirePackage{fontspec}
 \RequirePackage{xltxtra}
@@ -24,6 +23,7 @@
 \input{extra/acronyms.tex}
 \input{extra/gloss.tex}
 \makeglossaries
+%\usepackage{natbib}
 
 \RequirePackage{wallpaper}
 \def\figwidth{0.5\textwidth}
@@ -59,3 +59,6 @@
 
 % appx N kb
 \newcommand{\kbapp}[1]{\ensuremath{\approx#1\text{ kb}}}
+
+% http://tex.stackexchange.com/questions/49905/word-appendix-in-toc-with-memoir-class
+\renewcommand*{\cftappendixname}{Appendix\space}
