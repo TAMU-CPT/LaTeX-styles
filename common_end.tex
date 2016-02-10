@@ -1,6 +1,13 @@
 \usepackage[breaklinks,pagebackref,draft=false]{hyperref}
 %pagebackref automatically loads backref
 
+% glossaries should be loaded after hyperref
+% https://en.wikibooks.org/wiki/LaTeX/Glossary#Using_glossaries
+\RequirePackage[acronym,toc,nopostdot,nohypertypes={notation}]{glossaries}
+\input{extra/gloss.tex}
+\makeglossaries
+\input{extra/acronyms.tex}
+
 % make figure caption hyperlinks go to top of figure http://stackoverflow.com/q/4023925/
 \usepackage[]{caption}
 \usepackage{subcaption}
