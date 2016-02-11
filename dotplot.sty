@@ -1,0 +1,35 @@
+\NeedsTeXFormat{LaTeX2e}
+\RequirePackage{tikz}
+\RequirePackage{ifthen}
+\RequirePackage{dotplot}
+\ProvidesPackage{dotplot}[2016/02/10 dotplot package]
+
+\newcommand{\seqa}{A}
+\newcommand{\seqb}{A}
+
+\newcommand{\dotplot}[2]{%
+    \renewcommand{\seqa}{#1}
+    \renewcommand{\seqb}{#2}
+    \begin{tikzpicture}[
+    match/.style={rectangle, draw=black!100, fill=blue!35, minimum size=0.5cm},
+    scale=0.5
+    ]
+    %\foreach \x [count=\xi] in {a, b, c, d, e, f, g, h} \node[draw] at (\xi, 1) {\x};
+
+    \foreach \charA [count=\xi] in \seqa
+    {%
+        \node[] at (\xi+1, 1) {\charA};
+        \foreach \charB [count=\yi] in \seqb
+        {%
+            \draw (0.5,-\yi+1.5) -- (\xi+1.5,-\yi+1.5);
+            \draw (\xi+0.5, +1.5) -- (\xi+0.5,-\yi+0.5);
+            \ifnum\xi=1
+                \node[] at (1, -\yi+1) {\charB};
+            \fi
+            \ifthenelse{\equal{\charA}{\charB}}{%
+                \node [match] at (\xi+1,-\yi+1) {};
+            }{}
+        }
+    }
+    \end{tikzpicture}
+}

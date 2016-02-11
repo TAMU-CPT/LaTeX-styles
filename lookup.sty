@@ -1,0 +1,18 @@
+%%% lookup.sty %%%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{lookup}[2015/06/10 Lookup for custom details]
+
+\newcommand{\lookupGet}[1]{%
+  \@ifundefined{lookup@#1}{%  
+    \PackageError{lookup}{No #1 key in lookup}{%
+      Key #1 was not found in lookup. %
+      You can insert it with \string\lookupPut{key}{value}.%
+    }%
+  }{%
+    \@nameuse{lookup@#1}%
+  }%
+}
+\newcommand{\lookupPut}[2]{%
+  \@namedef{lookup@#1}{#2}%
+}
+\endinput
