@@ -19,6 +19,5 @@
 \input{cls_chapter}
 \input{title_textbook}
 \input{headings_common}
-%\setmainfont{EBGaramond12-Regular.ttf}
 
 \input{common_end}
