@@ -12,6 +12,8 @@
 \newbact{pcaro}{genus=Pectobacterium,epithet=carotovorum}
 \newbact{cfre}{genus=Citrobacter,epithet=freundii}
 \newbact{eaero}{genus=Enterobacter,epithet=aerogenes}
+\newbact{ecloa}{genus=Enterobacter,epithet=cloacae}
+\newbact{eerw}{genus=Enterobacter,epithet=erwinia}
 \newbact{celegans}{genus=Caenorhabditis,epithet=elegans}
 
 % Genus
@@ -23,6 +25,11 @@
 
 % Bact + Strain
 \newtaxon{strain}
+% Salmonella
+\newtaxastyle{Subsp}{\taxit{\taxonfirst{!genus!.}\taxon{ !epithet!}}\taxon{ subsp. !strain!}}
+\newbact{styp}{genus=Salmonella, epithet=enterica,strain=typhi}
+\newbact{smar}{genus=Salmonella, epithet=enterica,strain=marcescens}
+% Standard
 \newtaxastyle{WithStrain}{\taxit{\taxonfirst{!genus!.}\taxon{ !epithet!}}\taxon{ !strain!}}
 \newbact{ecolik12}{genus=Escherichia,epithet=coli,strain=K-12}
 \newbact{ecolib}{genus=Escherichia,epithet=coli,strain=B}
