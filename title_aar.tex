@@ -1,0 +1,36 @@
+\newcommand{\PHAGEtitle}[1]{\title{#1}\def\phagetitle{#1}}
+
+\newcommand{\PHAGEfont}[1]{\setmainfont[Mapping=tex-text]{#1}}%(mapping=tex-text is for --, --- )
+\newcommand{\PHAGEedition}[1]{\def\phageedition{#1}}
+\newcommand{\PHAGElogopath}[1]{\def\phagelogo{#1}}
+
+\newcommand{\PHAGEauthor}[1]{\author{#1}\def\aarfrom{#1}}
+\newcommand{\PHAGEto}[1]{\def\aarto{#1}}
+\newcommand{\PHAGEcc}[1]{\def\aarcc{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\maketitle{%
+{%
+\thispagestyle{empty}% remove header/foot
+\begin{center}%
+\par{\Huge After Action Report\\\@title}\\%
+\vspace{2em}%
+
+\par{%
+\begin{tabular}{rl}%
+    FROM: & \aarfrom\\%
+    TO: & \aarto\\%
+    CC: & \aarcc\\%
+\end{tabular}%
+}
+\vfill%
+\includegraphics[scale=0.5]{images/phage.png}%
+\vfill%
+Compiled \today, Version \phageedition\\\par%
+\end{center}\clearpage%
+\par}}
+\makeatother
+
