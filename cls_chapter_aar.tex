@@ -1,0 +1,20 @@
+\newcommand{\pchap}[3]{\chapter{#1}}
+
+\definecolor{nicered}{rgb}{.647,.129,.149}
+
+\usepackage{wallpaper}
+\makeatletter
+\makechapterstyle{redphage}{%
+\renewcommand\chapnamefont{\normalfont\Large\scshape\so}
+\renewcommand\chaptitlefont{\HUGE\bfseries\scshape\color{nicered}}
+\setsecheadstyle{\bfseries\color{nicered}}
+\setsubsecheadstyle{\bfseries\color{nicered}}
+\setsubsubsecheadstyle{\bfseries\color{nicered}}
+\renewcommand\chapternamenum{}
+\renewcommand\printchaptername{\ThisULCornerWallPaper{1}{images/chapter-header.png}}
+\renewcommand\printchapternum{\raggedleft}%size of the box
+\renewcommand\afterchapternum{\par\midchapskip}
+\renewcommand\printchaptertitle[1]{\chaptitlefont\raggedright{}##1\par}
+}
+\makeatother
+\chapterstyle{redphage}
