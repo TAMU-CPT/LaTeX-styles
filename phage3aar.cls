@@ -19,5 +19,6 @@
 \input{cls_chapter_aar}
 \input{title_aar}
 \input{headings_common}
+\setcounter{tocdepth}{4}
 
 \input{common_end}
