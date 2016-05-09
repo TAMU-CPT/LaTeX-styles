@@ -18,7 +18,11 @@
 \input{cls_thinkabout}
 \input{cls_chapter_aar}
 \input{title_aar}
-\input{headings_common}
+\input{headings_aar}
+
 \setcounter{tocdepth}{4}
+\setlength{\epigraphwidth}{0.5\textwidth}
+\pagestyle{aar}
+
 
 \input{common_end}
