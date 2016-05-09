@@ -15,7 +15,6 @@
 \LoadClass{memoir}
 \input{common}
 \input{common_memoir_extra}
-\input{cls_thinkabout}
 \input{cls_chapter_aar}
 \input{title_aar}
 \input{headings_aar}
