@@ -22,10 +22,6 @@
 \setcounter{tocdepth}{4}
 \setlength{\epigraphwidth}{0.5\textwidth}
 \pagestyle{aar}
-
-\newfloat{email}{em}{flt}
-\floatname{email}{Email}
-
 \input{common_end}
-\crefname{email}{email}{emails}
-\Crefname{email}{Email}{Emails}
+\input{emails}
+\input{aar_issues}

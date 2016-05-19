@@ -1,0 +1,51 @@
+%\newfloat{issue}{h}{flt}
+%\usepackage{mdframed}
+%\floatname{issue}{Issue}
+%\crefname{issue}{issue}{issues}
+%\Crefname{issue}{Issue}{Issues}
+
+\usepackage[breakable,skins,listings]{tcolorbox} % load with breakable library
+\usepackage{capt-of} % captions for non-floating elements
+
+
+\newtcblisting[use counter=lstlisting]{issue}[3][]{%
+    width=\textwidth,
+    breakable,
+    text only,
+    colback=white!95!black,
+    colframe=white!85!black,
+    title={\color{black}{\scshape Issue \thetcbcounter}: ~#2},label={#3},
+}
+
+\lstset{%
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    columns=fullflexible,
+}%
+
+
+
+
+
+\newcommand{\issueSummary}[1]{\textbf{Issue Summary}: #1\ \\}
+\newcommand{\issueConsequence}[1]{\textbf{Consequences}: #1\ \\}
+\newcommand{\issueAnalysis}[1]{\textbf{Analysis}: #1\ \\}
+
+\usepackage{enumitem}
+\usepackage{lipsum}
+\newlist{recommendations}{enumerate}{1}
+\setlist[recommendations]{
+    label=\textbf{Recommendation \arabic*:},
+    before=\raggedright,
+    align=left,
+    leftmargin=*,
+    topsep=1em
+}
+
+\newlist{actions}{enumerate}{1}
+\setlist[actions]{
+    label=\textbf{Action \arabic*:},
+    before=\raggedright,
+    align=left,
+    leftmargin=-7em
+}
