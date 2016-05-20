@@ -15,25 +15,29 @@
 \def\maketitle{%
 {%
 \thispagestyle{empty}% remove header/foot
-\begin{center}%
-\par{\Huge After Action Report\\\@title}\\%
+\centering%
+\par{\hspace{1cm}\Huge After Action Report\\\hspace{1cm}\@title}\\%
 \vspace{2em}%
 
 \par{%
-\begin{tabular}{rl}%
+    \hspace{1cm}
+    \begin{tabular}{p{.1\textwidth}p{.6\textwidth}}%
     FROM: & \aarfrom\\%
     TO: & \aarto\\%
     CC: & \aarcc\\%
 \end{tabular}%
 }
 \vfill%
-\includegraphics[height=0.5\paperheight]{images/cpt-logo.png}%
+\hspace{1cm}\includegraphics[height=0.5\paperheight]{images/cpt-logo.png}%
 \vfill%
-\begin{tabular}{rl}%
-    Compiled & \texttt{\VCDateISO{}T\VCTime}\\%
-    Revision & \texttt{\VCRevisionMod}\\%
-\end{tabular}%
-\end{center}\clearpage%
+\par{
+    \hspace{1cm}
+    \begin{tabular}{rl}%
+        Compiled & \texttt{\VCDateISO{}T\VCTime}\\%
+        Revision & \texttt{\VCRevisionMod}\\%
+    \end{tabular}%
+}
+\clearpage%
 \par}}
 \makeatother
 
