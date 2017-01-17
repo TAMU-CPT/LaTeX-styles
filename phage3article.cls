@@ -32,4 +32,4 @@
 
 \input{headings_article}
 \input{common_end}
-\input{extra/article-attrib.tex}
+%\input{extra/article-attrib.tex}
