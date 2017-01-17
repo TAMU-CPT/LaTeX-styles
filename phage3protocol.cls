@@ -60,6 +60,26 @@
 \input{bacteria.tex}
 %\input{extra/shortcuts.tex}
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\def\@maketitle{
+{\Huge \@title}
+\vfill
+
+{\Large \bfseries \color{red} \@title}
+{\scshape Teacher:} \@author ~ at  \@date \par 
+\smallskip \hrule \bigskip }
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FINALIZING: seriously do not mess with. Hyperref + cleveref are **picky**
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[breaklinks]{hyperref}
 % make figure caption hyperlinks go to top of figure http://stackoverflow.com/q/4023925/
 \usepackage[font=small]{caption}
