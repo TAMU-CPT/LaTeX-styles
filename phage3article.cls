@@ -15,50 +15,7 @@
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
 
-\RequirePackage{amsmath,amssymb}
-\RequirePackage{epigraph}
-\RequirePackage{etoolbox}
-\RequirePackage{fontspec}
-\RequirePackage{xltxtra}
-\RequirePackage{geometry}
-\RequirePackage{graphicx}
-\graphicspath{{images/}{images/library/}}
-\RequirePackage{makeidx}
-\RequirePackage{multicol}
-\RequirePackage[super]{nth}
-\RequirePackage{textcomp}
-\RequirePackage[usenames,dvipsnames]{xcolor}
-\RequirePackage{wrapfig}
-\RequirePackage{lineno}
-\RequirePackage[acronym,toc]{glossaries}
-\RequirePackage{textcomp}
-\RequirePackage[version=3]{mhchem}
-\input{extra/acronyms.tex}
-\input{extra/gloss.tex}
-\makeglossaries
-
-\RequirePackage{wallpaper}
-\def\figwidth{0.5\textwidth}
-\def\innerfigwidth{.48\textwidth}
-
-\DeclareGraphicsExtensions{.pdf,.png,.jpg}
-
-\RequirePackage{biocon}
-\RequirePackage{siunitx}
-\input{extra/bacteria.tex}
-\input{extra/shortcuts.tex}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Our think about boxes
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{mdframed}% http://ctan.org/pkg/mdframed
-\usepackage{float}
-\usepackage{mdframed}
-\usepackage{soul,calc}
-\usepackage{tikz}
-\usepackage[explicit]{titlesec}
-
+\input{common}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Editor http://tex.stackexchange.com/a/58528
@@ -68,30 +25,11 @@
 \newcommand{\@editor}{\@latex@warning@no@line{No \noexpand\editor given}}
 \makeatother
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% /maketitle customisation
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makeatletter
-\def\maketitle{%
-\begin{center}%
-\ThisULCornerWallPaper{1}{chapter-header-x50.png}%
-\par{\Huge\@title}%
-\par{by \Large\@author}%
-\par{\small ed. \@editor}%
-\end{center}%
-\par}
-\makeatother
+\input{title_article}
 
 % Make sections start from 1 rather than 0.1
 \renewcommand{\thesection}{\arabic{section}}
 
-% appx N kb
-\newcommand{\kbapp}[1]{\ensuremath{\approx#1\text{ kb}}}
-
-\usepackage[breaklinks]{hyperref}
-% make figure caption hyperlinks go to top of figure http://stackoverflow.com/q/4023925/
-\usepackage[font=small]{caption}
-\usepackage{subcaption}
-\usepackage{cleveref}
-
+\input{headings_article}
+\input{common_end}
 \input{extra/article-attrib.tex}

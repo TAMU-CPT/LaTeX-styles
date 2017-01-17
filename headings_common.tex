@@ -1,0 +1,60 @@
+\makepagestyle{plain}
+\makerunningwidth{plain}{\headwidth}
+\makeevenfoot{plain}{\thepage}{}{}
+\makeoddfoot{plain}{}{}{\thepage}
+
+\makepagestyle{empty}
+\makeevenhead{empty}{}{}{}
+\makeoddhead{empty}{}{}{}
+\makeevenfoot{empty}{}{}{}
+\makeoddfoot{empty}{}{}{}
+
+\makepagestyle{lab}
+\makeevenhead{lab}
+	{\thepage\quad}
+	{}
+	{}
+\makeoddhead{lab}
+	{}
+	{}
+	{\quad\thepage}
+\makeevenfoot{lab}
+	{Center for Phage Technology}
+	{}
+	{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
+\makeoddfoot{lab}
+	{Center for Phage Technology}
+	{}
+	{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
+\makefootrule{lab}{\textwidth}{\normalrulethickness}{3pt}
+
+\makepagestyle{book_dev}
+\makeevenhead{book_dev}
+    {\thepage\quad|\quad\leftmark}
+    {}
+    {}
+\makeevenfoot{book_dev}
+    {Rev: \texttt{\VCRevisionMod}}
+    {}
+    {\today}
+
+\makeoddhead{book_dev}
+    {}
+    {}
+    {\quad\thepage}
+\makeoddfoot{book_dev}
+    {Rev: \texttt{\VCRevisionMod}}
+    {}
+    {\today}
+
+\makepagestyle{book_release}
+\makeevenhead{book_release}
+    {\thepage\quad|\quad\leftmark}
+    {}
+    {}
+\makeoddhead{book_release}
+    {}
+    {}
+    {\quad\thepage}
+\makeevenfoot{book_release}{}{}{}
+\makeoddfoot{book_release}{}{}{}

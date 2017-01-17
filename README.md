@@ -1,5 +1,4 @@
-# CPT's LaTeX style repo
-
+# CPT's LaTeX style repo 
 Document classes for producing CPT affiliated documents. These let you easily
 style your documents according to standard CPT practices.
 
@@ -22,3 +21,9 @@ Single column with sexy chapter headings, based on the memoir class
 Single column, similar to the textbook except based on article instead of memoir.
 
 ![](./images/Selection_557.png)
+
+## Garamond
+
+Use of the gorgeous Garamond font is also possible
+
+![](./images/Selection_603.png)

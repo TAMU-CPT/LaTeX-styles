@@ -1,0 +1,17 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\maketitle{%
+\thispagestyle{empty}% remove header/foot
+\begin{center}%
+\ThisULCornerWallPaper{1}{chapter-header-x50.png}%
+\par{\Huge\@title}%
+\par{by \Large\@author}%
+\par{\small ed. \@editor}%
+\end{center}%
+\pagestyle{default}
+\par}
+\makeatother
+
+

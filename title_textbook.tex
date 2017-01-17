@@ -1,0 +1,26 @@
+\newcommand{\PHAGEtitle}[1]{\title{#1}\def\phagetitle{#1}}
+\newcommand{\PHAGEauthor}[1]{\author{#1}\def\phageauthor{#1}}
+\newcommand{\PHAGEfont}[1]{\setmainfont[Mapping=tex-text]{#1}}%(mapping=tex-text is for --, --- )
+\newcommand{\PHAGEedition}[1]{\def\phageedition{#1}}
+\newcommand{\PHAGElogopath}[1]{\def\phagelogo{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\maketitle{%
+{%
+\thispagestyle{empty}% remove header/foot
+\begin{center}%
+\par{\Huge\@title}\\%
+\vspace{2em}by\vspace{2em}%
+\par{\Large\@author}%
+\vfill%
+\includegraphics[scale=0.5]{images/phage.png}%
+\vfill%
+\phageedition~Edition,\\\par%
+\today%
+\end{center}\clearpage%
+\par}}
+\makeatother
+

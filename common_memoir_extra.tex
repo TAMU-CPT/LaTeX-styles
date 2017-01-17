@@ -1,0 +1,29 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Editor http://tex.stackexchange.com/a/58528
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\newcommand{\editor}[1]{\gdef\@editor{#1}}%
+\newcommand{\@editor}{\@latex@warning@no@line{No \noexpand\editor given}}
+\addtoiargdef{\editor}{%
+  \begingroup\let\footnote\@gobble}{%
+  \begingroup
+    \renewcommand{\thanks}[1]{}
+    \renewcommand{\and}{\unskip, }
+    \renewcommand{\andnext}{\unskip, }
+    \renewcommand{\thanksmark}[1]{}
+    \renewcommand{\thanksgap}[1]{}
+    \protected@xdef\theeditor{#1}
+  \endgroup\endgroup}
+\newcommand{\preeditor}[1]{\def\@bspreeditor{#1}}
+\newcommand{\posteditor}[1]{\def\@bsposteditor{#1}}
+\renewcommand{\maketitlehookc}{%
+  {\@bspreeditor \@editor \@bsposteditor}%
+}
+%\preeditor{\begin{center}
+  %\large \lineskip .5em%
+  %\begin{tabular}[t]{c}}
+%\posteditor{\end{tabular}\par\end{center}}
+\makeatother
+
+% http://tex.stackexchange.com/questions/49905/word-appendix-in-toc-with-memoir-class
+\renewcommand*{\cftappendixname}{Appendix\space}

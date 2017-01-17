@@ -15,9 +15,13 @@
 \LoadClass{memoir}
 \input{common}
 \input{common_memoir_extra}
-\input{cls_thinkabout}
-\input{cls_chapter}
-\input{title_textbook}
-\input{headings_common}
+\input{cls_chapter_aar}
+\input{title_aar}
+\input{headings_aar}
 
+\setcounter{tocdepth}{4}
+\setlength{\epigraphwidth}{0.5\textwidth}
+\pagestyle{aar}
 \input{common_end}
+\input{emails}
+\input{aar_issues}

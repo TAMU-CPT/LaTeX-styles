@@ -11,45 +11,9 @@
 
 \ProvidesClass{phage3protocol}[\filedate~Protocol style ``Phage'' by Eric Rasche]
 \LoadClass{memoir}
-\NeedsTeXFormat{LaTeX2e}
-
-\RequirePackage{amsmath,amssymb}
-\RequirePackage{etoolbox}
-\RequirePackage{fontspec}
-\RequirePackage{xltxtra}
-\RequirePackage{geometry}
-\RequirePackage{graphicx}
-\RequirePackage{multicol}
-\RequirePackage[super]{nth}
-\RequirePackage{textcomp}
-\RequirePackage[usenames,dvipsnames]{xcolor}
-\RequirePackage{textcomp}
-\RequirePackage[version=3]{mhchem}
-\DeclareGraphicsExtensions{.pdf,.png,.jpg}
-\RequirePackage{biocon}
-\RequirePackage{siunitx}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Headings
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makepagestyle{dev}
-\makeevenhead{dev}{\thepage\quad}{}{}
-\makeoddhead{dev}{}{}{\quad\thepage}
-\makeevenfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
-\makeoddfoot{dev}{Center for Phage Technology}{}{Last Updated: \today\ \\Rev: \texttt{\GITBranch-\VCRevisionMod}}
-
-\makepagestyle{plain}
-\makerunningwidth{plain}{\headwidth}
-\makeevenfoot{plain}{\thepage}{}{}
-\makeoddfoot{plain}{}{}{\thepage}
-
-\makepagestyle{empty}
-\makeevenhead{empty}{}{}{}
-\makeoddhead{empty}{}{}{}
-\makeevenfoot{empty}{}{}{}
-\makeoddfoot{empty}{}{}{}
-\makefootrule{dev}{\textwidth}{\normalrulethickness}{3pt}
+\input{common}
+\input{common_memoir_extra}
+\input{headings_common}
 
 \setheadfoot{\onelineskip}{4\onelineskip}
 \settrimmedsize{11in}{8.5in}{}
@@ -86,3 +50,6 @@
 \usepackage{subcaption}
 \usepackage{cleveref}
 \renewcommand{\chaptername}{Laboratory}
+
+\pagestyle{dev}
+\input{common_end}

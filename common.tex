@@ -1,0 +1,57 @@
+\NeedsTeXFormat{LaTeX2e}
+
+\RequirePackage{amsmath,amssymb}
+\RequirePackage{epigraph}
+\RequirePackage{etoolbox}
+\RequirePackage{fontspec}
+\RequirePackage{xltxtra}
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\graphicspath{{images/}{images/library/}}
+\RequirePackage{makeidx}
+\RequirePackage{multicol}
+\RequirePackage[super]{nth}
+\RequirePackage{textcomp}
+\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage{wrapfig}
+\RequirePackage{lineno}
+\RequirePackage{textcomp}
+\RequirePackage[version=3]{mhchem}
+%\usepackage{natbib}
+%\setsecnumdepth{subsubsection}
+
+\RequirePackage{wallpaper}
+\def\figwidth{0.5\textwidth}
+\def\innerfigwidth{.48\textwidth}
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\RequirePackage{biocon}
+\RequirePackage{siunitx}
+\input{bacteria.tex}
+\input{style/extra/shortcuts.tex}
+\input{vc.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Our think about boxes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mdframed}% http://ctan.org/pkg/mdframed
+\usepackage{float}
+\usepackage{mdframed}
+\usepackage{soul,calc}
+\usepackage{tikz}
+\usepackage[explicit]{titlesec}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of Chapter Questions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsthm}
+\newtheorem{EOCQ}{Question}
+
+% appx N kb
+\setlength{\columnsep}{1cm}
+\newcommand{\kbapp}[1]{\ensuremath{\approx#1\text{ kb}}}
