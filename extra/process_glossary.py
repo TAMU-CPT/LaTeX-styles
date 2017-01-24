@@ -23,6 +23,8 @@ with open(sys.argv[1], 'r') as handle:
         if not len(texname.strip()):
             texname = name
 
+        if defn.strip() == '??':
+            defn = 'TODO: Dr. Young'
         data.append((name, texname, defn))
 
 for entry in sorted(data, key=lambda x: x[0]):
