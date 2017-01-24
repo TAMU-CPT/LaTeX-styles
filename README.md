@@ -22,6 +22,12 @@ Single column, similar to the textbook except based on article instead of memoir
 
 ![](./images/Selection_557.png)
 
+## Quizzes
+
+Simple quiz theme, no extreme customizations.
+
+![](./images/Utvalg_095.png)
+
 ## Garamond
 
 Use of the gorgeous Garamond font is also possible
