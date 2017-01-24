@@ -12,6 +12,7 @@
 \ProvidesClass{phage3protocol}[\filedate~Protocol style ``Phage'' by Eric Rasche]
 \LoadClass{memoir}
 \input{common}
+\input{vc.tex}
 \input{common_memoir_extra}
 \input{headings_common}
 

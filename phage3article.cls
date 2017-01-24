@@ -16,6 +16,7 @@
 \NeedsTeXFormat{LaTeX2e}
 
 \input{common}
+\input{vc.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Editor http://tex.stackexchange.com/a/58528
