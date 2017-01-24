@@ -1,13 +1,13 @@
 def sanitize_latex(data):
     # http://stackoverflow.com/questions/2627135/how-do-i-sanitize-latex-input#2627303
     replacements = [
-        ('\\', '\\textbackslash{}'),
-        ('{', '\\{'),
-        ('}', '\\}'),
+        # ('\\', '\\textbackslash{}'),
+        # ('{', '\\{'),
+        # ('}', '\\}'),
         ('$', '\\$'),
         ('&', '\\&'),
         ('#', '\\#'),
-        ('_', '\\_'),
+        # ('_', '\\_'),
         ('%', '\\%'),
         ('<', '\\textless{}'),
         ('>', '\\textgreater{}'),
