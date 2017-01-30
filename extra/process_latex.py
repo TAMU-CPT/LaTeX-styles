@@ -15,6 +15,7 @@ def sanitize_latex(data):
         ('"', '\\textquotedbl{}'),
         ('^', '\\textasciicircum{}'), # (requires the textcomp package)
         ('~', '\\textasciitilde{}'),
+        ('°', '$^{\\circ}$'),
         # These are .. mostly correctly used
         # "'": '\\textquotesingle{}',
         # ('`', '\\textasciigrave{}'),
