@@ -2,7 +2,7 @@ Term	Definition	LaTeX Term	Date of entry or modification	First seen (ch #)	also 
 abortive infection (AI)	AI is a strategy by which bacteria block the propagation of phage by committing suicide upon infection. Usually the AI gene or genes are encoded on a prophage but, unlike other prophage genes, are constitutively expressed. AI generally is manifested by a sudden lethal membrane event at some time after the beginning of infection of a virulent phage, before the accumulation of progeny. The molecular basis of AI events is unknown. The best studied AI system is the rex system encoded by phage lambda.				
 activator	Also transcription factor. A protein that causes the activation of a cryptic promoter, either by binding to the DNA or to RNA polymerase.			2	
 adaptive immunity	``Adaptive immunity creates immunological memory after an initial response to a specific pathogen, leads to an enhanced response to subsequent encounters with that pathogen. This process of acquired immunity is the basis of vaccination. Like the innate system, the adaptive system includes both humoral immunity components and cell-mediated immunity components.''\cite{wiki:Adaptive_immune_system}				
-Alt	the Alt protein is ejected by the phage into the cytoplasm, where it modifies host RNA polymerase				
+Alt	the Alt protein is ejected by the phage into the cytoplasm, where it modifies host RNA polymerase			3	
 annotation	Annotation is the process of describing the contents of a genome. M. Zorn has a nice definition: Extraction, definition, and interpretation of features on the genome sequence derived by integrating computational tools and biological knowledge. (). The biggest task is finding the genes and assigning functional identities to the predicted gene products.			1	
 anti-terminator	A factor that reduces or abolishes transcriptional termination. The first examples were the N and Q proteins of phage lambda. However, in some cases, the anti-termination factor is a cis-acting RNA sequence.			1	2
 att	Also attB, attP, attachment sites. DNA sites on the phage DNA (attP) or bacterial chromosome (attB) that are used as substrates by phage-encoded Integrase for site-specific recombination. Result is integration of the phage DNA into the host chromosome.				
@@ -12,7 +12,7 @@ baseplate	the apparatus at the bottom of a myophage tail to which the tail fiber
 beta-helix	a protein structural motif				
 burst size	Average pfu per infective center; usually determined by single-step growth experiment			1	
 bushing	A term applied to a 10-membered ring of the lambda MCP, gpE, in contact with the portal. These E proteins are modified by covalent exchange reactions with C proteins, generating X1 and X2 products. The bushing concept reflects some expectation that the portal ring may turn with respect to the capsid, as a consequence between the symmetry mismatch at the portal vertex (5 fold axis at each vertex but 12-fold rotational symmetry for the portal.)				
-capsomer	the structural unit of virus head capsid				
+capsomer	the structural unit of virus head capsid			3	
 Caudovirales	Taxon of the tailed phages (Myophages, Siphophages, Podophages)	\textit{Caudovirales}		1	
 chaperonin	multi-meric complex that aids in protein folding			2	
 clear plaques	hallmark of virulent phages; plaques lack visible bacterial growth			1	
@@ -21,23 +21,23 @@ cohesive ends	the region of unpaired nucleotides on each end of lambda DNA prior
 coiled coil	a structural motif where multiple copies of a protein helix are coiled into a multimeric helix			2	
 coliphage	phage of \bact{ecoli}			1	
 constitutive	a promoter that is consistently active in the cell			2	
-contractile tail	tail of a myophage			1	?
+contractile tail	tail of a myophage			1	3
 cos	an abbreviation for the cohesive ends of lambda DNA			2	
-cryptic	a cryptic promoter has low or no functionality without transcription factors			2	
+cryptic	a cryptic promoter has low or no functionality without transcription factors			2	3
 cubic	symmetry term that includes icosahedral symmetry			1	
 defective prophage	prophages that have undergone mutations, including deletions, such that a viable virion is no longer encoded. \bact{ecolik12} has several, including dlp at \SI{12}{\min}, for example.			1	
 deletionogenic event	loss of DNA material during replication				
 domain	a structural unit of a protein			2	
 E. coli B	classic non-pathogenic laboratory strain of \bact{ecoli}; source was J. Bordet. Mandated for use with the T series (Seven Dwarves) in the Phage Course.	\bact{ecolib}			
 efficiency of plating	usually the relative pfu titer on one strain compared to another. Absolute EOP is pfu per virion. This is 1 for T4 and lambda.				
-endolysin	enzyme that cleaves host cell wall during the lytic cycle				
+endolysin	enzyme that cleaves host cell wall during the lytic cycle			3	
 establishment	an established promoter is in its active form			2	
 Felix d'Herelle	founder of phage biology. See Module 1.			1	
 h mutant	short for host range, a mutant capable of infecting bacteria species other than its normal host	\textit{h} mutant			
 helix-turn-helix	a protein structural motif			2	
 hetero-immune	If a host cell, usually a lysogen, expresses a different, incompatible lysogenic repressor than an incoming temperate phage, this is considered to be a hetero-immune infection and, in general, results in a normal infection cycle for the incoming phage and also turbid plaque formation. Contrast with homo-immune.			2	
 holin	protein which creates holes in the IM, allowing endolysins to be released into the cytoplasm				
-Holliday junction	the interchange junction of DNA strands during recombination				
+Holliday junction	the interchange junction of DNA strands during recombination			3	
 homo-immune	A bacterial strain that expresses a repressor compatible (capable of repressing) a particular phage is considered to be homo-immune to that phage. Usually this means it carries the prophage form of the phage, but in some cases, it might carry only a fragment of the prophage or even a different prophage that just happens to have a compatible repressor. In general, homo-immunity blocks gene expression in the incoming phage, leaving it as a non-replicating, repressed DNA molecule. In general, homo-immunity blocks plaque formation. See immunity.			2	
 homolog	a homologous protein has similar DNA sequence to a protein in a different organism			1	
 homology-dependent recombination	??			2	
@@ -50,12 +50,12 @@ juggernaut	the juggernaut refers to the complex of N protein, RNA, and RNA polym
 linear concatemers	Most phages form linear concatemers of their unit genome as substrates for Terminase-dependent DNA packaging. In lambda, linear concatemers of the phage genome are formed by rolling circle replication and enhanced in terms of length by Red-mediated recombination. 			2	
 lysis	the sudden loss of turbidity (cell density) in a bacterial culture, usually accompanied by a dramatic increase in viscosity, due to the release of host and phage DNA.  At the single cell level, the cell undergoes disruption of the envelope, resulting in the release of cytosolic contents and loss of phase contrast refractility. For Caudovirales, lysis at the single cell level is explosive.			1	
 lysogenic repressor	an example in phage biology would be CI protein which, by repressing competing proteins, causes the pathway to proceed lysogenically			2	
-lysozyme	enzyme which catalyzes degredation of the bacterial cell wall				
+lysozyme	enzyme which catalyzes degredation of the bacterial cell wall			3	4
 membrane potential	the voltage across the inner membrane of bacterial cells			2	
 moron	a DNA element that is found in a specific region on the chromosome, but not in all phage particles				
 myophage	a phage type charactarized by a contractile tail			1	
 nicks	refers to a small single-stranded region in dsDNA, usually only a few nucleotides			2	
-Okazaki fragment	the DNA fragments synthesized on the lagging strand during replication				
+Okazaki fragment	the DNA fragments synthesized on the lagging strand during replication			3	
 operator	a region of DNA that binds transcription factors and regulates gene expression			2	
 permuted	a phage genome where no defined start or stop is present			2	
 pinholin	pinholins create small gaps in the host IM, similar to holins				
@@ -69,7 +69,7 @@ prophage	A prophage is a dormant form of a temperate phage. A prophage is kept i
 pseudogene	a gene which no longer functions due to a mutation				
 quasi-equivalence	For all T>1 capsid structures, the MCP assumes T slightly different (quasi-equivalent) structures. Thus in a T=7 phage like lambda, the MCP is in 7 slightly different conformations, one of which is the vertex pentameric structure, and the other 6 are structures found in different hexamers. The Caspar-Klug theory of quasi-equivalence explained how it could be that viruses can have vastly different capsid sizes, yet all have about the same size MCP. The alternative would have been that every virus had T=1 symmetry and be made up of 12 pentamers, so to get bigger (and be able to encapsulate more nucleic acid), the MCP itself would have to get bigger in all three dimensions during evolution. 		170123	2	
 regulon	a series of genes that are similarly regulated			2	
-replisome	the multi-protein complex that functions to replicate DNA				
+replisome	the multi-protein complex that functions to replicate DNA			3	
 repressor	a protein that binds to an operator and inhibits transcription of that gene			2	
 resistant	A bacterial strain exhibits resistance to a particular phage if the phage is unable to adsorb to the host cell and transfer its nucleic acid into the cytosol. The most common form of resistance is the loss or mutational alteration of the receptor on the surface of the host.				
 restriction	In phage biology, a phage is said to be restricted on a host if the bacterium carries a restriction enzyme system that can cleave the phage DNA. Restriction enzymes recognize a specific sequence in the phage DNA and, in general, cleave the DNA if it is not chemically modified in a certain way recognized by the restriction enzyme. Restriction systems always include an enzyme activity that will modify DNA in the host, so the incoming foreign DNA can be recognized and attacked. In general, efficient restriction systems prevent killing of the infected cell, since the phage DNA is degraded before it can be expressed. However, since the modification activity is also around, the ability to recognize the phage DNA and attack it represents a competion between the restriction cleavage and modification processes. Typically, in about one of a d-2d-4infections, the phage DNA gets modified before it is cleaved. In this case, the modified phage is then able to replicate, cause lysis and release modified progeny, which no longer are attenuated by the surrounding host cells. Thus modification can be considered a form of epigenetic change; the DNA sequence of the phage has not changed but it has acquired the ability to grow on the restricting host. Often, this means that the modified phage will be recognized by the restriction system of the host on which the phage was originally grown, so it will now be restricted on that host.				
@@ -94,4 +94,4 @@ tyrosine recombinase	the enzyme required for site-specific recombination of phag
 vir	refers to vir mutants	\textit{vir}		2	
 virulent	a phage only capable of replicating using the lytic pathway			1	
 vRNAP	virion RNA polymerase				
-Wac	the Wac protein forms the phage whiskers and collar structures				
+Wac	the Wac protein forms the phage whiskers and collar structures			3	

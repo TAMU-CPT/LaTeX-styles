@@ -1,44 +1,44 @@
 Acronym	Definition	First seen (chapter #)	also linked (special cases)
-AI	Abortive infection		
+AI	abortive infection		
 APOPG	Awesome Power of Phage Genetics	1	
-cryoEM	Cryoelectron Microscopy		
-CTD	C-terminal domain		
+cryoEM	cryoelectron microscopy	3	
+CTD	C-terminal domain	3	
 D-ala	D-alanine		
-dar	Defense against restriction		
-DSC	dNTP Synthetase Complex		
-EOP	Efficiency of plating	1	
-FST	First Step Transfer		
-GFP	Green Flourescent Protein		
+dar	defense against restriction		
+DSC	dNTP synthetase complex	3	
+EOP	efficiency of plating	1	
+FST	first-step-transfer	4	
+GFP	green flourescent protein		
 HMC	hydroxymethyl cytosine		
-IM	Inner Membrane	2	
+IM	inner membrane	2	
 IntProt	Internal Protein		
 Lpp	Braun's lipoprotein		
-LPS	lipopolysaccharide		
+LPS	lipopolysaccharide	3	
 LTA	lipoteichoic acid		
-LTF	long tail fiber		
+LTF	long tail fiber	3	
 MCP	major capsid protein	2	
 mDAP	meso-diaminopimelate		
 MDO	membrane derived oligosaccharide		
 ncRNA	non-coding RNA		
-NTD	N-terminal domain		
+NTD	N-terminal domain	3	
 OM	outer membrane	2	
 OMP	outer membrane protein	2	
-PFU	Plaque-Forming Unit	1	
+PFU	plaque-forming unit	1	
 PL	phospholipid		
 PMF	proton-motive-force		
 pN	picoNewton		
 PSK	post-segregation killing		
 RNApol	RNA Polymerase	2	
-ShortTF	short tail fiber		
+ShortTF	short tail fiber	3	
 sRNA	small RNA		
 SSB	ssDNA binding protein	2	
-STF	side tail fiber	2	
-STR	Short Terminal Repeat		
+STF	side tail fiber	2	3
+STR	short terminal repeat	4	
 TA	toxin-anti-toxin		
 teichoic-acid	teichoic acid		
 THL	take home lesson	1	
-TMD	Transmembrane Domain		
+TMD	transmembrane domain		
 TP	terminal protein		
-TR	Terminal Repeat		
+TR	terminal repeat	4	
 WTA	wall teichoic acid		
-ZF	Zinc finger		
+ZF	zinc finger		
