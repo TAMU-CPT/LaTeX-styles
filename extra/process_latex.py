@@ -1,3 +1,7 @@
+#!/usr/bin/python
+#vim: set fileencoding=utf-8 :
+
+
 def sanitize_latex(data):
     # http://stackoverflow.com/questions/2627135/how-do-i-sanitize-latex-input#2627303
     replacements = [
