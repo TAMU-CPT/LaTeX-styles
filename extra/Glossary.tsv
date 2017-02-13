@@ -36,7 +36,7 @@ Felix d'Herelle	founder of phage biology. See Module 1.			1
 h mutant	short for host range, a mutant capable of infecting bacteria species other than its normal host	\textit{h} mutant			
 helix-turn-helix	a protein structural motif			2	
 hetero-immune	If a host cell, usually a lysogen, expresses a different, incompatible lysogenic repressor than an incoming temperate phage, this is considered to be a hetero-immune infection and, in general, results in a normal infection cycle for the incoming phage and also turbid plaque formation. Contrast with homo-immune.			2	
-holin	protein which creates holes in the IM, allowing endolysins to be released into the cytoplasm				
+holin	protein which creates holes in the IM, allowing endolysins to be released into the cytoplasm			5	
 Holliday junction	the interchange junction of DNA strands during recombination			3	
 homo-immune	A bacterial strain that expresses a repressor compatible (capable of repressing) a particular phage is considered to be homo-immune to that phage. Usually this means it carries the prophage form of the phage, but in some cases, it might carry only a fragment of the prophage or even a different prophage that just happens to have a compatible repressor. In general, homo-immunity blocks gene expression in the incoming phage, leaving it as a non-replicating, repressed DNA molecule. In general, homo-immunity blocks plaque formation. See immunity.			2	
 homolog	a homologous protein has similar DNA sequence to a protein in a different organism			1	
@@ -48,9 +48,10 @@ insensitivity	A bacterial strain is considered to be insensitive to a phage if t
 inverted repeat	an inverted DNA sequence found in operators			2	
 juggernaut	the juggernaut refers to the complex of N protein, RNA, and RNA polymerase. This complex does not allow termination as it moves forward transcribing RNA.			2	
 linear concatemers	Most phages form linear concatemers of their unit genome as substrates for Terminase-dependent DNA packaging. In lambda, linear concatemers of the phage genome are formed by rolling circle replication and enhanced in terms of length by Red-mediated recombination. 			2	
+lipobox	a four residue motif found in signal sequences of bacterial lipoproteins.  The motif is {L,V,I}-X-{G,S,A)-C, where X is never charged and rarely hydrophilic.  Signal peptidase II cleaves the preprotein in front of the Cys residue, leading to covalent lipoylation of the Cys on the free amino terminus and the sulfur atom.  		170213	5	
 lysis	the sudden loss of turbidity (cell density) in a bacterial culture, usually accompanied by a dramatic increase in viscosity, due to the release of host and phage DNA.  At the single cell level, the cell undergoes disruption of the envelope, resulting in the release of cytosolic contents and loss of phase contrast refractility. For Caudovirales, lysis at the single cell level is explosive.			1	
 lysogenic repressor	an example in phage biology would be CI protein which, by repressing competing proteins, causes the pathway to proceed lysogenically			2	
-lysozyme	enzyme which catalyzes degredation of the bacterial cell wall			3	4
+lysozyme	enzyme which catalyzes degredation of the bacterial cell wall			3	4, 5
 membrane potential	the voltage across the inner membrane of bacterial cells			2	
 moron	a DNA element that is found in a specific region on the chromosome, but not in all phage particles				
 myophage	a phage type charactarized by a contractile tail			1	
@@ -58,7 +59,7 @@ nicks	refers to a small single-stranded region in dsDNA, usually only a few nucl
 Okazaki fragment	the DNA fragments synthesized on the lagging strand during replication			3	
 operator	a region of DNA that binds transcription factors and regulates gene expression			2	
 permuted	a phage genome where no defined start or stop is present			2	
-pinholin	pinholins create small gaps in the host IM, similar to holins				
+pinholin	pinholins create small gaps in the host IM, similar to holins			5	
 plaque	A circular zone with reduced turbidity in a bacterial lawn. Each plaque is caused by a single phage particle that has successfully infected a cell and caused release of progeny, which then go on to diffuse in the agar to infect surrounding cells. For Caudovirales, plaques typically contain \textasciitilde\num{d6} virus particles. Temperate phages can form turbid plaques, because some cells become lysogenized by the phage and thus acquire immunity, allowing the lysogenic cells to grow within the plaque. Plaques can be completely clear, usually indicating that the phage is not capable of lysogenizing the host. Used for forming the lawn.				
 podophage	a phage type charactarized by a short tail			1	
 positive control	Positive control of gene expression means that in the absence of the regulatory molecule, expression is abrogated or reduced.  Positive control factors for transcription in phage biology are in two forms: anti-terminators (e.g., lambda N and Q),  and transcription factors (i.e., like lambda CII) which bind to DNA and activate transcription.  			2	
@@ -77,7 +78,7 @@ sensitivity	A bacterial strain is considered to be sensitive to a phage if the p
 siphophage	a phage type charactarized by a long, noncontractile tail			1	
 site-specific recombination	Site-specific recombination is a recombination event that does not rely on sequence homology but instead occurs between specific sites and requires specific proteins other than the Rec system.  The most famous example of site-specific recombination in phage biology is the reaction between attP in the lambda DNA and attB in the \bact{ecoli} chromosome, catalyzed by the phage Int protein and resulting in the integration of the lambda DNA as a prophage.			2	
 SOS response	DNA damage results in this mechanism triggering a lysogen to undergo the lytic cycle			2	
-spanin	functions in aiding the OM disruption during lysis				
+spanin	functions in aiding the OM disruption during lysis			5	
 specificity	Phages usually show specificity for strains that have the receptor recognized by the tail fibers or other adsorption device of the virion. Some phages are specific for only a few strains of a bacterial species; this is also referred to as having a narrow host range. This in general is due to the receptor being a particular sugar structure or protein on the cell surface. If this receptor is not found in most strains of the bacterial species, the phage would be considered highly specific. Although the general opinion in modern phage therapy is that phages are highly specific anti-bacterial agents, some phages show very broad host range by recognizing universally conserved receptors. Note that specificity can be negatively over-ridden by other factors including restriction systems, etc.			1	
 specificity loop	this is a small N-terminal domain of the ``single-subunit'' RNA polymerases, the prototype for which is gp\textit{1} of T7 phage.  This loop inspects the duplex DNA as it enters the active site and looks for the long promoter sequence. 			4	
 sub-operators	an operator within a tripartite operator			2	

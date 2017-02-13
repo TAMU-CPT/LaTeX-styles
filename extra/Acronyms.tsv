@@ -12,7 +12,7 @@ GFP	green flourescent protein
 HMC	hydroxymethyl cytosine		
 IM	inner membrane	2	
 IntProt	Internal Protein		
-Lpp	Braun's lipoprotein		
+Lpp	Braun's lipoprotein	5	
 LPS	lipopolysaccharide	3	
 LTA	lipoteichoic acid		
 LTF	long tail fiber	3	
@@ -37,7 +37,7 @@ STR	short terminal repeat	4
 TA	toxin-anti-toxin		
 teichoic-acid	teichoic acid		
 THL	take home lesson	1	
-TMD	transmembrane domain		
+TMD	transmembrane domain	5	
 TP	terminal protein		
 TR	terminal repeat	4	
 WTA	wall teichoic acid		
