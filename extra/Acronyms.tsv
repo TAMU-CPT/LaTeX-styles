@@ -16,6 +16,7 @@ Lpp	Braun's lipoprotein	5
 LPS	lipopolysaccharide	3	
 LTA	lipoteichoic acid		
 LTF	long tail fiber	3	
+LTR	large terminal repeat	6	
 MCP	major capsid protein	2	
 mDAP	meso-diaminopimelate		
 MDO	membrane derived oligosaccharide		
@@ -26,7 +27,7 @@ OMP	outer membrane protein	2
 PFU	plaque-forming unit	1	
 PL	phospholipid		
 PMF	proton-motive-force		
-pN	picoNewton		
+pN	picoNewton	6	
 PSK	post-segregation killing		
 RNApol	RNA Polymerase	2	
 ShortTF	short tail fiber	3	
@@ -38,7 +39,7 @@ TA	toxin-anti-toxin
 teichoic-acid	teichoic acid		
 THL	take home lesson	1	
 TMD	transmembrane domain	5	
-TP	terminal protein		
+TP	terminal protein	6	
 TR	terminal repeat	4	
 WTA	wall teichoic acid		
 ZF	zinc finger		

@@ -2,10 +2,10 @@ Term	Definition	LaTeX Term	Date of entry or modification	First seen (ch #)	also 
 abortive infection (AI)	AI is a strategy by which bacteria block the propagation of phage by committing suicide upon infection. Usually the AI gene or genes are encoded on a prophage but, unlike other prophage genes, are constitutively expressed. AI generally is manifested by a sudden lethal membrane event at some time after the beginning of infection of a virulent phage, before the accumulation of progeny. The molecular basis of AI events is unknown. The best studied AI system is the rex system encoded by phage lambda.				
 activator	Also transcription factor. A protein that causes the activation of a cryptic promoter, either by binding to the DNA or to RNA polymerase.			2	
 adaptive immunity	``Adaptive immunity creates immunological memory after an initial response to a specific pathogen, leads to an enhanced response to subsequent encounters with that pathogen. This process of acquired immunity is the basis of vaccination. Like the innate system, the adaptive system includes both humoral immunity components and cell-mediated immunity components.''\cite{wiki:Adaptive_immune_system}				
-Alt	the Alt protein is ejected by the phage into the cytoplasm, where it modifies host RNA polymerase			3	
+Alt	the Alt protein is ejected by the phage into the cytoplasm, where it modifies host RNA polymerase			3	6
 annotation	Annotation is the process of describing the contents of a genome. M. Zorn has a nice definition: Extraction, definition, and interpretation of features on the genome sequence derived by integrating computational tools and biological knowledge. (). The biggest task is finding the genes and assigning functional identities to the predicted gene products.			1	
 anti-terminator	A factor that reduces or abolishes transcriptional termination. The first examples were the N and Q proteins of phage lambda. However, in some cases, the anti-termination factor is a cis-acting RNA sequence.			1	2
-att	Also attB, attP, attachment sites. DNA sites on the phage DNA (attP) or bacterial chromosome (attB) that are used as substrates by phage-encoded Integrase for site-specific recombination. Result is integration of the phage DNA into the host chromosome.				
+att	Also attB, attP, attachment sites. DNA sites on the phage DNA (attP) or bacterial chromosome (attB) that are used as substrates by phage-encoded Integrase for site-specific recombination. Result is integration of the phage DNA into the host chromosome.			6	
 attB	a site of \bact{ecoli} DNA necessary for recombination			2	
 attP	a site on lambda DNA necessary for recombination			2	
 baseplate	the apparatus at the bottom of a myophage tail to which the tail fibers are attached. Baseplates undergo major reorganization to cause sheath contraction and allow the tail tube to penetrate to the cell membrane surface. 				
@@ -96,7 +96,7 @@ turbidity	a measure of suspended cells in a lysate			1
 tyrosine recombinase	the enzyme required for site-specific recombination of phage DNA			2	
 vir	refers to vir mutants	\textit{vir}		2	
 virulent	a phage only capable of replicating using the lytic pathway			1	
-vRNAP	virion RNA polymerase				
+vRNAP	virion RNA polymerase			6	
 Wac	the Wac protein forms the phage whiskers and collar structures			3	
 noisy	Noisy here describes a low signal-to-noise ratio, i.e. a lot of noise and very little signal.			bioinfo-book	
 SD	``The Shine-Dalgarno (SD) sequence is a ribosomal binding site in prokaryotic messenger RNA.'' The canonical sequence is \texttt{AGGAGGU}\url{https://en.wikipedia.org/wiki/Shine-Dalgarno_sequence}	Shine-Dalgarno			
