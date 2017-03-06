@@ -31,9 +31,6 @@ printf '%%%%%% Jenkins Variables\n'
 if [ ! -z "$BRANCH_NAME" ]; then
     printf '\gdef\CIBranchName{%s}%%\n' $BRANCH_NAME
 fi;
-if [ ! -z "$BUILD_DISPLAY_NAME" ]; then
-    printf '\gdef\CIBuildDisplayName{%s}%%\n' $BUILD_DISPLAY_NAME
-fi;
 if [ ! -z "$BUILD_ID" ]; then
     printf '\gdef\CIBuildID{%s}%%\n' $BUILD_ID
 fi;
