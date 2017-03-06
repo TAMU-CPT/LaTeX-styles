@@ -26,3 +26,71 @@ then
 fi
 
 git branch | awk -v script=branch -f ${VCGITAWK}
+
+printf '%%%%%% Jenkins Variables\n'
+if [ ! -z "$BRANCH_NAME" ]; then
+    printf '\gdef\CIBranchName{%s}%%\n' $BRANCH_NAME
+fi;
+if [ ! -z "$BUILD_DISPLAY_NAME" ]; then
+    printf '\gdef\CIBuildDisplayName{%s}%%\n' $BUILD_DISPLAY_NAME
+fi;
+if [ ! -z "$BUILD_ID" ]; then
+    printf '\gdef\CIBuildID{%s}%%\n' $BUILD_ID
+fi;
+if [ ! -z "$BUILD_NUMBER" ]; then
+    printf '\gdef\CIBuildNumber{%s}%%\n' $BUILD_NUMBER
+fi;
+if [ ! -z "$BUILD_TAG" ]; then
+    printf '\gdef\CIBuildTag{%s}%%\n' $BUILD_TAG
+fi;
+if [ ! -z "$BUILD_URL" ]; then
+    printf '\gdef\CIBuildUrl{%s}%%\n' $BUILD_URL
+fi;
+if [ ! -z "$CHANGE_AUTHOR" ]; then
+    printf '\gdef\CIChangeAuthor{%s}%%\n' $CHANGE_AUTHOR
+fi;
+if [ ! -z "$CHANGE_AUTHOR_DISPLAY_NAME" ]; then
+    printf '\gdef\CIChangeAuthorDisplayName{%s}%%\n' $CHANGE_AUTHOR_DISPLAY_NAME
+fi;
+if [ ! -z "$CHANGE_AUTHOR_EMAIL" ]; then
+    printf '\gdef\CIChangeAuthorEmail{%s}%%\n' $CHANGE_AUTHOR_EMAIL
+fi;
+if [ ! -z "$CHANGE_ID" ]; then
+    printf '\gdef\CIChangeID{%s}%%\n' $CHANGE_ID
+fi;
+if [ ! -z "$CHANGE_TARGET" ]; then
+    printf '\gdef\CIChangeTarget{%s}%%\n' $CHANGE_TARGET
+fi;
+if [ ! -z "$CHANGE_TITLE" ]; then
+    printf '\gdef\CIChangeTitle{%s}%%\n' $CHANGE_TITLE
+fi;
+if [ ! -z "$CHANGE_URL" ]; then
+    printf '\gdef\CIChangeUrl{%s}%%\n' $CHANGE_URL
+fi;
+if [ ! -z "$EXECUTOR_NUMBER" ]; then
+    printf '\gdef\CIExecutorNumber{%s}%%\n' $EXECUTOR_NUMBER
+fi;
+if [ ! -z "$JENKINS_HOME" ]; then
+    printf '\gdef\CIJenkinsHome{%s}%%\n' $JENKINS_HOME
+fi;
+if [ ! -z "$JENKINS_URL" ]; then
+    printf '\gdef\CIJenkinsUrl{%s}%%\n' $JENKINS_URL
+fi;
+if [ ! -z "$JOB_BASE_NAME" ]; then
+    printf '\gdef\CIJobBaseName{%s}%%\n' $JOB_BASE_NAME
+fi;
+if [ ! -z "$JOB_NAME" ]; then
+    printf '\gdef\CIJobName{%s}%%\n' $JOB_NAME
+fi;
+if [ ! -z "$JOB_URL" ]; then
+    printf '\gdef\CIJobUrl{%s}%%\n' $JOB_URL
+fi;
+if [ ! -z "$NODE_LABELS" ]; then
+    printf '\gdef\CINodeLabels{%s}%%\n' $NODE_LABELS
+fi;
+if [ ! -z "$NODE_NAME" ]; then
+    printf '\gdef\CINodeName{%s}%%\n' $NODE_NAME
+fi;
+if [ ! -z "$WORKSPACE" ]; then
+    printf '\gdef\CIWorkspace{%s}%%\n' $WORKSPACE
+fi;
