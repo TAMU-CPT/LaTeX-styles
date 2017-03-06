@@ -96,7 +96,6 @@ turbidity	a measure of suspended cells in a lysate			1
 tyrosine recombinase	the enzyme required for site-specific recombination of phage DNA			2	
 vir	refers to vir mutants	\textit{vir}		2	
 virulent	a phage only capable of replicating using the lytic pathway			1	
-vRNAP	virion RNA polymerase			6	
 Wac	the Wac protein forms the phage whiskers and collar structures			3	
 noisy	Noisy here describes a low signal-to-noise ratio, i.e. a lot of noise and very little signal.			bioinfo-book	
 SD	``The Shine-Dalgarno (SD) sequence is a ribosomal binding site in prokaryotic messenger RNA.'' The canonical sequence is \texttt{AGGAGGU}\url{https://en.wikipedia.org/wiki/Shine-Dalgarno_sequence}	Shine-Dalgarno			
