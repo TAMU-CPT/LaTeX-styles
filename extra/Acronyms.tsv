@@ -2,44 +2,43 @@ Acronym	Definition	First seen (chapter #)	also linked (special cases)
 APOPG	Awesome Power of Phage Genetics	1	
 cryoEM	cryoelectron microscopy	3	
 CTD	C-terminal domain	3	
-D-ala	D-alanine		
-dar	defense against restriction		
+D-ala	D-alanine	module 2	
+dar	defense against restriction	minitopic 1	
 DSC	dNTP synthetase complex	3	
-EOP	efficiency of plating	1	
 FST	first-step-transfer	4	
-GFP	green flourescent protein		
-HMC	hydroxymethyl cytosine		
+GFP	green flourescent protein	minitopic 1	
+HMC	hydroxymethyl cytosine	8	
 IM	inner membrane	2	
-IntProt	Internal Protein		
+IntProt	Internal Protein	3	
 Lpp	Braun's lipoprotein	5	
 LPS	lipopolysaccharide	3	
-LTA	lipoteichoic acid		
+LTA	lipoteichoic acid	module 2	
 LTF	long tail fiber	3	
 LTR	large terminal repeat	6	
 MCP	major capsid protein	2	
-mDAP	meso-diaminopimelate		
-MDO	membrane derived oligosaccharide		
+mDAP	meso-diaminopimelate	module 2	
+MDO	membrane derived oligosaccharide	module 2	
 ncRNA	non-coding RNA		
 NTD	N-terminal domain	3	
 OM	outer membrane	2	
 OMP	outer membrane protein	2	
 PFU	plaque-forming unit	1	
-PL	phospholipid		
-PMF	proton-motive-force		
+PL	phospholipid	module 2	
+PMF	proton-motive force	6	8
 pN	picoNewton	6	
-PSK	post-segregation killing		
+PSK	post-segregation killing	8	
 RNApol	RNA Polymerase	2	
 ShortTF	short tail fiber	3	
-sRNA	small RNA		
+sRNA	small RNA	minitopic 1	
 SSB	ssDNA binding protein	2	
 STF	side tail fiber	2	3
 STR	short terminal repeat	4	
-TA	toxin-anti-toxin		
-teichoic-acid	teichoic acid		
+TA	toxin-anti-toxin	8	
+teichoic-acid	teichoic acid	not truly an acronym it looks like	
 THL	take home lesson	1	
 TMD	transmembrane domain	5	
 TP	terminal protein	6	
 TR	terminal repeat	4	
 vRNAP	virion RNA polymerase	6	
-WTA	wall teichoic acid		
+WTA	wall teichoic acid	module 2	
 ZF	zinc finger	7	
