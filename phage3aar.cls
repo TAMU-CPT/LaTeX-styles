@@ -14,7 +14,9 @@
 \ProvidesClass{phage3}[\filedate Textbook style ``Phage'' by Eric Rasche]
 \LoadClass{memoir}
 \input{common}
+\input{vc.tex}
 \input{common_memoir_extra}
+
 \input{cls_chapter_aar}
 \input{title_aar}
 \input{headings_aar}
