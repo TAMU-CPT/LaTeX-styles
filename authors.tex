@@ -1,10 +1,16 @@
 % Author information for header
-\newcommand{\authorErasche}{\author[Eric Rasche\\ \color{gray} C527 B0FC 0AF6 3592]{Eric Rasche}}
+\newcommand{\authorErasche}{\author[Eric Rasche\\ \color{gray} C527 B0FC 0AF6 3592]{Eric Rasche\\Software Application Developer III}}
 \newcommand{\authorEmijalis}{\author[Eleni Mijalis]{Eleni Mijalis}}
-\def\fundingNSFABIannotation{This material is based upon work supported by the National Science Foundation under Grant Number (Award 1565146)}
+
+%https://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
+\newcommand*{\vcenteredhbox}[1]{\begingroup
+\setbox0=\hbox{#1}\parbox{\wd0}{\box0}\endgroup}
+
+
+\def\fundingNSFABIannotation{\tiny This material is based upon work supported by the National Science Foundation under Grant Number (Award 1565146)}
 \def\logosTamuCPT{%
-	\includegraphics[width=0.45\textwidth]{CPT-Maroon-logo.1024.png}%
-	\includegraphics[width=0.45\textwidth]{cpt-logo-5.1024.png}\\%
+	\vcenteredhbox{\includegraphics[width=0.45\textwidth]{CPT-Maroon-logo.1024.png}}%
+	\vcenteredhbox{\includegraphics[width=0.45\textwidth]{cpt-logo-5.1024.png}}\\%
 }
 
 % Closing slide information
@@ -14,7 +20,7 @@
     Thank you \\\ \\%
     \begin{center}%
         \begin{tabular}{rl}%
-            \color{gray} GitHub           & \href{https://github.com/erasche}{gh/@erasche}\\%
+            \color{gray} GitHub           & \href{https://github.com/erasche}{github.com/@erasche}\\%
             \color{gray} Work Email       & \href{mailto:esr@tamu.edu}{esr@tamu.edu}\\%
             \color{gray} GPG Fingerprint  & \texttt{F063 D331 6E63 E7B5 23FD}\\%
                                           & \texttt{B9EA C527 B0FC 0AF6 3592}%
@@ -30,7 +36,7 @@
     Thank you \\\ \\%
     \begin{center}%
         \begin{tabular}{rl}%
-            \color{gray} GitHub           & \href{https://github.com/elenimijalis}{gh/@elenimijalis}\\%
+            \color{gray} GitHub           & \href{https://github.com/elenimijalis}{github.com/@elenimijalis}\\%
             \color{gray} Email            & \href{mailto:elenimijalis@gmail.com}{elenimijalis@gmail.com}\\%
 		\end{tabular}\\[1cm]
 		\logosTamuCPT%
