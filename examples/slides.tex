@@ -1,0 +1,35 @@
+\documentclass[12pt]{phage3slides} %
+
+\title[Short Title]{Long Title}
+\authorErasche{}
+\usepackage{lipsum}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{For the Nav}
+\begin{frame}{But this goes in the slide title}
+	\begin{itemize}
+		\item \lipsum
+	\end{itemize}
+\end{frame}
+
+\section{Nav entries are good!}
+\begin{frame}{Title entries less so.}
+	\begin{itemize}
+		\item \lipsum
+	\end{itemize}
+\end{frame}
+
+\subsection{Full Page Screenshots}
+{
+  \usebackgroundtemplate{\includegraphics[height=\paperheight,width=\paperwidth]{chapter-header.png}}
+  \setbeamertemplate{navigation symbols}{}
+  \begin{frame}[plain]
+  \end{frame}
+}
+
+
+\informationErasche
+
+\end{document}

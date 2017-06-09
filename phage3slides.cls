@@ -25,7 +25,7 @@
 \usetheme{Berkeley}
 \usecolortheme{seagull}
 
-\logo{\includegraphics[width=1.5cm]{cpt-logo-small.png}}
+\logo{\includegraphics[width=1cm]{cpt-logo-small.png}}
 
 \date[\today]{\today}
 \RequirePackage{hyperref}
