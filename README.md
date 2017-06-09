@@ -33,3 +33,9 @@ Simple quiz theme, no extreme customizations.
 Use of the gorgeous Garamond font is also possible
 
 ![](./images/Selection_603.png)
+
+## Slides
+
+A customized beamer theme is likewise available
+
+![](./images/slides.png)
