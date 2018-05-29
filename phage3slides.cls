@@ -2,7 +2,7 @@
 %
 % A LaTeX2e document class for preparing slides
 
-%%% Eric Rasche
+%%% E. Rasche
 %%% Center for Phage Technology
 %%% Texas A&M University
 %%% esr@tamu.edu
@@ -11,7 +11,7 @@
 \def\fileversion{1.0}
 \def\filedate{2017/06/09}
 
-\ProvidesClass{phage3slides}[\filedate Slides style ``Phage'' by Eric Rasche]
+\ProvidesClass{phage3slides}[\filedate Slides style ``Phage'' by E. Rasche]
 \LoadClass{beamer}
 \RequirePackage{amssymb,amsmath}
 \RequirePackage[utf8x]{inputenc}

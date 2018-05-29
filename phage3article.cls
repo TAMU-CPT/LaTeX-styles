@@ -2,7 +2,7 @@
 %
 % A LaTeX2e document class for preparing textbooks
 
-%%% Eric Rasche
+%%% E. Rasche
 %%% Center for Phage Technology
 %%% Texas A&M University
 %%% esr@tamu.edu
@@ -11,7 +11,7 @@
 \def\fileversion{3.0}
 \def\filedate{2015/01/19}
 
-\ProvidesClass{phage3article}[\filedate Article style ``Phage'' by Eric Rasche]
+\ProvidesClass{phage3article}[\filedate Article style ``Phage'' by E. Rasche]
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
 
